@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF - 8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/540ace37fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           <img src="Images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi,<span>welcome</span></h1>
+            
+        </div>
+    </div>
+        
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="Images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quam in sequi eligendi et dolorum ipsa neque hic, fuga, asperiores sit eum est aut officia perferendis reprehenderit esse iusto laboriosam.
+                Quidem accusantium debitis rerum voluptatem natus quasi delectus aliquam ad quod esse, modi et enim ducimus molestias inventore molestiae aut incidunt laudantium ratione porro nihil nam obcaecati corporis quam. Suscipit.
+                Libero velit, voluptate autem beatae eos eum natus dolores unde vitae ipsa, facilis corporis consequatur ducimus error ex quod odit inventore sapiente cum recusandae rem molestias debitis. Rem, cumque eligendi.
+                Similique, voluptate. Velit suscipit est dolorem laborum dignissimos id repellat necessitatibus corporis, assumenda officiis omnis dolor optio quos totam. Veniam exercitationem, ad molestias maxime suscipit quo illum a enim optio?
+                Voluptatum fugiat omnis itaque nihil iste alias corrupti tempore magni cum neque, incidunt ea dignissimos eum illo ipsam dolorum quia est atque inventore repellat quae similique, officia possimus minima! Impedit?
+                Numquam maxime tenetur minus nisi eligendi architecto ducimus itaque quos ex tempore, dolore expedita temporibus reprehenderit velit eius repellendus rem quae? Cupiditate officiis totam accusantium praesentium eligendi obcaecati quasi iusto.</P>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI UX</span><br>designing web ineterfaces</li>
+                        <li><span>web developer</span><br>designing web ineterfaces</li>
+                        <li><span>app developer</span><br>designing web ineterfaces</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Experience">
+                    <ul>
+                        <li><span>2021</li>
+                        <li><span>2022<span><br></li>
+                        <li><span>2023</span><br></li>
+
+                    </ul>
+                </div>  
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>mg university</li>
+                        <li><span>2021</span><br>calicut university</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website or updating an already existing site.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>App Design</h2>
+                <p>pp design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the app (including the colors, fonts, and general look and feel), UX focuses on the actual functionality and usability.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i>
+                <h2>Photoshop</h2>
+                <p>Photoshop is an image creation, graphic design and photo editing software developed by Adobe. The software provides many image editing features for pixel-based images, raster graphics and vector graphics. Adobe Photoshop was first released in 1988.</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">my works</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work1.jpg">
+                <div class="layer">
+                    <h3>zxcvbnm</h3>
+                    <p>qwe rtyu yuio wert rtyu cvb fgh dfghsdfg xcvb sdfg xcvb .</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work3.jpg">
+                <div class="layer">
+                    <h3>zxcvbnm</h3>
+                    <p>qwe rtyu yuio wert rtyu cvb fgh dfghsdfg xcvb sdfg xcvb .</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>dk@gmail/com</p>
+                <p><i class="fa-solid fa-phone"></i>123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <p>Copyright © 2023 <i class="fa-solid fa-heart"></i>dk.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwVOeuMbhyO1JZrFb7vTIVGSvGb_i7vASeFCYXH11NfDn2ymffK4fbnlkyHxGNEOrcg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    constmsg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
